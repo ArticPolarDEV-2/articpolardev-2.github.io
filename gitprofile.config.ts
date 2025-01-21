@@ -28,7 +28,7 @@ const CONFIG = {
         projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    external: {
+    /*external: {
       header: 'Meus Projetos',
       // To hide the `External Projects` section, keep it empty.
       projects: [
@@ -49,7 +49,7 @@ const CONFIG = {
           link: 'https://example.com',
         },
       ],
-    },
+    },*/
   },
   seo: {
     title: 'Portfolio de ArticPolarDEV',
@@ -80,7 +80,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
