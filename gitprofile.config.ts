@@ -13,23 +13,23 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Projetos do Github',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['ArticPolarDEV-2/myport', 'ArticPolarDEV-2/Portfolio', 'ArticPolarDEV-2/Portfolio', 'ArticPolarDEV-2/death-chest', 'ArticPolarDEV-2/ExpurgDay-Spigot', 'ArticPolarDEV-2/articpolardev-2.github.io'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
+      header: 'Meus Projetos',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
@@ -52,31 +52,31 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio de ArticPolarDEV',
     description: '',
-    imageURL: '',
+    imageURL: 'https://articpolardev-2.github.io/myport/logo.d12c9e54dd2012cd96d4ad8d2e7dddbe.svg',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'articpolardev',
+    twitter: 'jlucas1303',
+    mastodon: '',
     researchGate: '',
     facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
+    instagram: 'articpolardev',
+    reddit: 'articpolardev',
+    threads: 'articpolardev',
+    youtube: 'articpolardev', // example: 'pewdiepie'
     udemy: '',
     dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    behance: 'articpolardev',
+    medium: 'articpolardev',
+    dev: 'articpolardev',
+    stackoverflow: 'articpolardev', // example: '1/jeff-atwood'
     skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    telegram: 'articpolardev',
+    website: 'https://articpolardev-2.github.io/myport/',
+    phone: '+55 (73) 99945-1497',
+    email: 'articpolardev@gmail.com',
   },
   resume: {
     fileUrl:
@@ -84,21 +84,21 @@ const CONFIG = {
   },
   skills: [
     'PHP',
-    'Laravel',
+    'HTML',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
+    'C#',
     'MySQL',
-    'PostgreSQL',
+    'Bootstrap',
     'Git',
-    'Docker',
-    'PHPUnit',
+    'Pug',
+    'SCSS',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Python',
+    'Backend',
   ],
-  experiences: [
+  /*experiences: [
     {
       company: 'Company Name',
       position: 'Position',
@@ -121,22 +121,22 @@ const CONFIG = {
       year: 'March 2022',
       link: 'https://example.com',
     },
-  ],
+  ],*/
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Centro Educacional Presbiteriano',
+      degree: '8º ano',
+      from: '2012',
+      to: '2021',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Colégio da Polícia Militar de Bom Jesus da Lapa',
+      degree: '2º ano E.M.',
+      from: '2022',
+      to: 'Presente',
     },
   ],
-  publications: [
+  /*publications: [
     {
       title: 'Publication Title',
       conferenceName: '',
@@ -155,11 +155,11 @@ const CONFIG = {
       description:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
     },
-  ],
+  ],*/
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: 'articpolardev', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -171,7 +171,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'Night',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -234,11 +234,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+  footer: `Feito por <a 
+      class="text-primary" href="https://github.com/articpolardev/myport"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >ArticPolarDEV</a> com ❤️`,
 
   enablePWA: true,
 };
