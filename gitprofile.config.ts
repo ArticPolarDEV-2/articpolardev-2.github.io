@@ -20,7 +20,7 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: ['ArticPolarDEV-2/myport', 'ArticPolarDEV-2/Portfolio', 'ArticPolarDEV-2/Portfolio', 'ArticPolarDEV-2/death-chest', 'ArticPolarDEV-2/ExpurgDay-Spigot', 'ArticPolarDEV-2/articpolardev-2.github.io'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['ArticPolarDEV-2/myport', 'ArticPolarDEV-2/Portfolio', 'ArticPolarDEV-2/ArtifactX-Plugin', 'ArticPolarDEV-2/death-chest', 'ArticPolarDEV-2/ExpurgDay-Spigot', 'ArticPolarDEV-2/articpolardev-2.github.io1'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
