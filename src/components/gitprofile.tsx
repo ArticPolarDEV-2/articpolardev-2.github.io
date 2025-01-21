@@ -262,7 +262,6 @@ const GitProfile = ({ config }: { config: Config }) => {
                         publications={sanitizedConfig.publications}
                       />
                     )}
-                    // Here
                     {sanitizedConfig.blog.display && (
                       <BlogCard
                         loading={loading}
