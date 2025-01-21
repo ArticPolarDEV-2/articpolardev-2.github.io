@@ -164,7 +164,7 @@ const BlogCard = ({
       <div className="text-center mb-6">
         <AiOutlineContainer className="mx-auto h-12 w-12 opacity-30" />
         <p className="mt-1 text-sm opacity-50 text-base-content">
-          No recent post
+          Nenhuma postagem recente
         </p>
       </div>
     );
@@ -188,7 +188,7 @@ const BlogCard = ({
                     skeleton({ widthCls: 'w-28', heightCls: 'h-8' })
                   ) : (
                     <span className="text-base-content opacity-70">
-                      My Articles
+                      Meus Artigos
                     </span>
                   )}
                 </h5>
