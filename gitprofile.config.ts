@@ -28,10 +28,10 @@ const CONFIG = {
         projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
-    /*external: {
+    external: {
       header: 'Meus Projetos',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
+      /*projects: [
         {
           title: 'Project Name',
           description:
@@ -48,8 +48,8 @@ const CONFIG = {
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
         },
-      ],
-    },*/
+      ],*/
+    },
   },
   seo: {
     title: 'Portfolio de ArticPolarDEV',
